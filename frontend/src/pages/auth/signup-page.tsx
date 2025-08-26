@@ -1,3 +1,3 @@
 export function SignUpPage() {
-	return <>Sign Up</>;
+  return <>signup</>;
 }

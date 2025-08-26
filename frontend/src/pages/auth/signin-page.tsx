@@ -1,3 +1,3 @@
 export function SignInPage() {
-	return <>Sign In</>;
+  return <>signin</>;
 }

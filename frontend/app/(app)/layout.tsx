@@ -1,5 +1,12 @@
-export default async function WebAppLayout({
-	children,
+import { Header } from "@app/widgets";
+
+export default function AppLayout({
+  children,
 }: Readonly<{ children: React.ReactNode }>) {
-	return <div>{children}</div>;
+  return (
+    <>
+      <Header />
+      <main>{children}</main>
+    </>
+  );
 }
